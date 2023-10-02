@@ -1,0 +1,51 @@
+Data:
+  functional_data:
+  morphological_data:
+
+Seed:
+  seed: 11
+
+
+Wandb:
+  use_wandb: False
+  key:
+
+
+Sampling:
+  load_path_f_1: "./results/Diffusion_Train/fold_1.ckpt"
+  load_path_f_2: "./results/Diffusion_Train/fold_2.ckpt"
+  load_path_f_3: "./results/Diffusion_Train/fold_3.ckpt"
+  guidance: 0.5
+  save_dir: './results/Diffusion_Sample'
+  source_dim: 35
+  batch_size: 16
+  n_feat: 32
+
+
+
+
+Diffusion:
+  accelerator: 'gpu'
+  batch_size: 32
+  epochs: 100
+  save_dir: './results/Diffusion_Train'
+  dropout_prob: 0.2
+  fast_dev_run: False
+  n_feat: 32
+  source_dim: 35
+  target_dim: 160
+
+  load_dir_1: './results/Diffusion_Train/fold_1.ckpt'
+  load_dir_2: './results/Diffusion_Train/fold_2.ckpt'
+  load_dir_3: './results/Diffusion_Train/fold_3.ckpt'
+
+  beta1: 0.0001
+  beta2: 0.02
+
+  n_T: 400
+
+  lr: 0.001
+
+
+
+
