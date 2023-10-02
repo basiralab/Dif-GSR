@@ -3,7 +3,7 @@
 This Repository contains the implmentation of the paper "Dif-GSR" Diffusion-based Graph Super-resolution with
 Application to Connectomics. This paper is accepted as a MICCAI workshop paper (PRIME-MICCAI 2023).
 
-![Alt text](assets/model.png "model")
+![Alt text](model.png "model")
 
 
 ## Abstract
