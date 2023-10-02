@@ -3,9 +3,6 @@
 This Repository contains the implementation of the paper "Dif-GSR" Diffusion-based Graph Super-resolution with
 Application to Connectomics. This paper is accepted as a MICCAI workshop paper (PRIME-MICCAI 2023).
 
-![Screenshot](model.png)
-
-
 ## Abstract
 
 The super-resolution of low-resolution brain graphs, also known as
@@ -18,7 +15,7 @@ leverages the inherent topology of brain connectomes by employing a Graph
 Generative Adversarial Network (GAN) coupled with topological feature-based
 regularization to achieve super-resolution. However, training graph-based GANs
 is notoriously challenging due to issues regarding scalability and implicit probability
-modeling. To overcome these limitations and fully capitalize on the capabilities
+modelling. To overcome these limitations and fully capitalize on the capabilities
 of generative models, we propose Dif-GSR (Diffusion based Graph Super-
 Resolution) for predicting high-resolution brain graphs from low-resolution ones.
 Diffusion models have gained significant popularity in recent years as flexible
