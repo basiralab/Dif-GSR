@@ -98,3 +98,15 @@ python calculate_losses.py
 
 The results are stored in the results/losses folder with the default configuration.
 
+## Please cite the following paper when using Dif-GSR
+```latex
+@inproceedings{rajadhyaksha2023diffusion,
+  title={Diffusion-Based Graph Super-Resolution with Application to Connectomics},
+  author={Rajadhyaksha, Nishant and Rekik, Islem},
+  booktitle={International Workshop on PRedictive Intelligence In MEdicine},
+  pages={96--107},
+  year={2023},
+  organization={Springer}
+}
+```
+
